@@ -51,8 +51,7 @@
     2. Uplink fast: Link 복구 시간을 1분에서 약 2~3초 안에 가능하도록 만든 기술
     3. RSTP, MSTP 등의 기술을 사용해도 Convergence 시간을 단축할 수 있음
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0822f1d4-a06a-4973-a8af-736ff1843eb2/Untitled.png)
-
+<img src="./image/lecturepic.png" alt="Alt123" width="600">
 ---
 
 > BPDU 종류
