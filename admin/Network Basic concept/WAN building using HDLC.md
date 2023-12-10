@@ -36,4 +36,4 @@
     - PPP 프레임은 HDLC 프레임과 유사한 구조를 가지고 있으며 시스코 HDLC 프레임처럼 데이터 필드 앞에 상위 계층 프로토콜을 식별하는 프로토콜 (protocol) 필드를 가지고 있음
     - PPP 동작 절차는 3단계로 이루어지며 연결단계 → 인증단계 → 네트워크 계층 프로토콜 단게를 거침
     
-    <img src="./image/hdlc.1.png" alt="Alt123" width="600">s
+    <img src="./image/hdlc.1.png" alt="Alt123" width="600">
