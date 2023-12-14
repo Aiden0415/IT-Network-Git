@@ -4,7 +4,7 @@
 
 - 현재 위치의 파일 목록을 조회하는 명령어
 
-  <img src="./image/basic1.png" alt="Alt123" width="600">
+  <img src="./image/.png" alt="Alt123" width="600">
 
 ```jsx
 ls option  |  ls - [option]
