@@ -33,7 +33,7 @@ post(후에), pre(전에)
 
 ## VMware showtcut
 
-- 종료 Ctrl +e (ㄷㄴ, graceful shutdown이 아니고 강제종료임)
+- 종료 Ctrl +e (graceful shutdown이 아니고 강제종료임)
 - reboot Ctrl +r (강제 재시작)
 - Alt + m+ m+d → 종료된 VM 삭제
 - Alt + m + m + c → vm clone

@@ -1,5 +1,6 @@
 # 기능반 11-11~12 강의
-
+'''
+```vbnet
 /etc/resolv.conf
 
 host / nslookup /dig 명령으로 dns 질의
@@ -18,6 +19,7 @@ ns.google.com
 hostname 
 
 ns
+```
 
 ---
 
