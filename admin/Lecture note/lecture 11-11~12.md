@@ -1,23 +1,6 @@
 # 기능반 11-11~12 강의
+'''
 
-/etc/resolv.conf
-
-host / nslookup /dig 명령으로 dns 질의
-
-resolv.conf
-
-- nameserver - 1.1.1.1
-    - nameserver 2.2.2.2
-- search google.com
-- domain google.com
-
-hostname -f
-
-ns.google.com
-
-hostname 
-
-ns
 
 ---
 
@@ -44,5 +27,6 @@ ns
     - 비대칭키를 수신받은 대상은 개인키로 복호화해서 대칭키를 안전하게 전달받음
 
 ## SCP(ssh-copy)
-
+```
 scp root@1.1.1.1:/usr/local/share/ca-certificates/ca.crt /usr/local/share/ca-certificates/ca.crt
+```
