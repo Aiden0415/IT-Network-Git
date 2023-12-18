@@ -69,7 +69,7 @@ case .some(let value):
 	print(“Value is \(value)”)
 }
 
-// 기존 변수처럼 사용불가 - 옵셔널과 일반 값은 다른 타입이므로 연산 불가
+// 기존 변수처럼 사용불가 - 옵셔널과 일반 값은 다른 타입이므로 연산이 불가
 optionValue = optionValue + 1 // 에러
 
 // nil 할당 가능
