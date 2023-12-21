@@ -2,7 +2,7 @@
 
 ## VRF(Virtual Routing Forwarding)
 
-테넌트(고객) = vrf
+테넌트(고객) = VRF
 
 (bgp)(egp)(mpls)(vxlan)
 
