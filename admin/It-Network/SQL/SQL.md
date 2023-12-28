@@ -1,5 +1,4 @@
 # SQL Service
-
 - 기초적인 SQL 문법 공부하기. 과제에 사용되는 문법 보고 이해할 수 있을 만큼만
 
 ---
@@ -180,7 +179,7 @@ between and  in is null like
 - LTRIM, RTRIM(대상, 제거할 문자열) : 대상 문자열에서 제거할 문자열을 없앤 뒤 반환*select LTRIM('00010' , '00') ▶ 010*
 - REPLACE(대상문자열,바꾸고싶은대상,바꾸고싶은내용) : 대상문자열에서 바꾸고 싶은 대상을 바꾸고 싶은 내용으로 수정한 뒤 반환*REPLACE('ABCDEFG','DEF','XXX') ▶ ABCXXXG*
 
---- 
+---
 
 ### 계산 함수
 
