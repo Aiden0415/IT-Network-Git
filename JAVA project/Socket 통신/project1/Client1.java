@@ -62,12 +62,12 @@ public class Client1 extends JFrame {
         setVisible(true);
 
         try {
-            String serverAddress = JOptionPane.showInputDialog("Enter Server IP address:");
-            String hostName = JOptionPane.showInputDialog("Enter Your Hostname (Client1):");
+            String serverAddress = JOptionPane.showInputDialog("Enter Server IP address:");//GUI
+            String hostName = JOptionPane.showInputDialog("Enter Your Hostname (Client1):");//GUI
             connectToServer(serverAddress, hostName);
         } catch (IOException e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(null, "Error connecting to the server. Please check the server and try again.");
+            JOptionPane.showMessageDialog(null, "Error connecting to the server. Please check the server and try again."); //error message for server ip
             System.exit(1);
         }
     }
@@ -87,13 +87,13 @@ public class Client1 extends JFrame {
         String message = inputField.getText();
         if (!message.isEmpty()) {
             out.println(message);
-            chatArea.append("[" + getCurrentTime() + "] " + clientName + ": " + message + "\n");
+            chatArea.append("[" + getCurrentTime() + "] " + clientName + ": " + message + "\n"); //message output
             inputField.setText("");
         }
     }
 
     private String getCurrentTime() {
-        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss"); //setting time
         return sdf.format(new Date());
     }
 
@@ -107,7 +107,7 @@ public class Client1 extends JFrame {
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-                JOptionPane.showMessageDialog(null, "Error reading from the server. Connection lost.");
+                JOptionPane.showMessageDialog(null, "Error reading from the server. Connection lost."); //error message
                 System.exit(1);
             }
         }
