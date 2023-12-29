@@ -229,7 +229,7 @@ select A.a, A.b, B.c
 from A
 Right Outer Join B
 ON B.a = A.c;
-//역시 Outer을 생략할 수 있다
+//역시 Outer을 생략 가능
 ```
 
 ### Cross Join (Cartesian Join)
@@ -242,7 +242,7 @@ A CROSS JOIN B 는
 
 (a,1), (a, 2), (a,3), (b,1), (b,2), (b,3), (c, 1), (c,2), (c,3), (d, 1), (d, 2), (d,3)의 결과가 된다.
 
-결과의 개수는 n(A) * n(B) 이다.
+결과의 개수는 n(A) * n(B) 이다
 
 ```sql
 SELECT A.a A.b B.c
