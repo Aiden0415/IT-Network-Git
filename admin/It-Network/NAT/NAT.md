@@ -19,8 +19,8 @@
 
 ## DNAT, SNAT
 
-- SNAT(Source NAT) - 출발지 주소를 변경하는 NAT
-- DNAT(Destination NAT) - 도착지 주소를 변경하는 NAT
+- SNAT(Source NAT) - 출발지의 주소를 변경하는 NAT
+- DNAT(Destination NAT) - 도착지의 주소를 변경하는 NAT
 
 <img src="./image/nat1.png" alt="Alt123" width="600">
 
